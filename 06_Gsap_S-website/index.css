@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+
+}
+
+#part1 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(201, 196, 189);
+
+}
+
+#part1 h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    width: 100%;
+    text-align: center;
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/06/Best-HD-Backgrounds-Photos-Download.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-background-clip: Text;
+    background-clip: Text;
+    -webkit-text-stroke: 2px rgb(153, 127, 127);
+    color: transparent;
+
+}
+
+#part2 {
+    width: 100%;
+    height: 100%;
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#part2 video {
+    height: 100%;
+    width: 30%;
+
+}
+
+#part3 {
+    width: 100%;
+    height: 60%;
+    background-color: aqua;
+    position: relative;
+}
+
+#part3 h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    font-size: 100px;
+    font-weight: 400;
+    font-family: cursive;
+}
