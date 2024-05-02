@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+#nav {
+    height: 100px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 9px;
+}
+
+#nav img {
+    height: 60px;
+}
+
+#nav-part2 {
+    display: flex;
+    gap: 55px;
+}
+
+#nav-part3 {
+    display: flex;
+    gap: 55px;
+    align-items: center;
+}
+
+#nav h3 {
+    text-transform: uppercase;
+}
+
+#nav h4 {
+    text-transform: uppercase;
+}
+
+#nav button {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+#main h1 {
+    font-size: 120px;
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+#main h1 span {
+    background-color: rebeccapurple;
+    color: black;
+    font-size: 25px;
+    padding: 20px 40px;
+    margin: 0 30px;
+    border-radius: 50px;
+}
+
+#main h1:nth-child(2) {
+    color: red;
+    margin-top: 60px;
+}
+
+#main #left {
+    height: 200px;
+    position: absolute;
+    top: 25%;
+    left: 4%;
+    border-radius: 10px;
+}
+#main #right {
+    height: 200px;
+    position: absolute;
+    bottom: 25%;
+    right: 6%;
+    border-radius: 10px;
+}
+#main #left-1 {
+    height: 200px;
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    border-radius: 10px;
+}
+#main #right-1 {
+    height: 200px;
+    position: absolute;
+    bottom: 60%;
+    right: 6%;
+    border-radius: 10px;
+}
+#ram{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgb(36, 67, 125);
+    position: absolute;
+    top: 89%;
+    left: 3%;
+}
+#ram-1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgb(113, 29, 29);
+    position: absolute;
+    top: 89%;
+    right: 2%;
+}
