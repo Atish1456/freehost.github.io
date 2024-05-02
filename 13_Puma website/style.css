@@ -1,0 +1,2507 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+    position: relative;
+}
+
+#nav1 {
+    width: 100%;
+    height: 7vh;
+    background-color: rgb(172, 138, 95);
+}
+
+#nav1 h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1vw;
+    text-align: center;
+    padding: 2vh;
+    color: white;
+    font-weight: bold;
+}
+
+/* ****************************(nav1 end)*********/
+
+#nav2 {
+    width: 100%;
+    height: 11vh;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1vw;
+    padding: 1.2vw;
+    /* position: fixed; */
+
+
+
+
+
+}
+
+#nav2-part1 {
+    width: 50%;
+    height: 11vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    gap: 1vw;
+    float: left;
+}
+
+#nav2-part1 h1 {
+    font-size: 1.2vw;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#nav2-part1 img {
+    width: 50px;
+    margin-top: 1vh;
+}
+
+#icon {
+    display: flex;
+    align-items: center;
+    gap: 1.5vw;
+}
+
+#in {
+    position: relative;
+    color: black;
+
+}
+
+#in i {
+    position: absolute;
+    top: 9px;
+    left: 2vw;
+    color: white;
+}
+
+#in input::placeholder {
+    text-align: center;
+    color: white;
+
+
+}
+
+#in input {
+    padding: 0.7vh 1vh;
+    font-size: 1vw;
+    background-color: black;
+    outline: none;
+
+}
+
+/* **************************(nav2 end)************* */
+
+
+#nav3 {
+    width: 100%;
+    height: 11vh;
+    background-color: rgb(145, 34, 14);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5vh;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+/* **************************(nav3 end)************* */
+
+#nav4 {
+    width: 100%;
+    height: 20vh;
+    /* background-color: chocolate; */
+    position: relative;
+}
+
+#nav4 #container {
+    width: 70%;
+    height: 70vh;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 0.9vw;
+    padding-top: 0.4vh;
+
+}
+
+.photo {
+    position: relative;
+    height: 100%;
+}
+
+.photo img {
+    width: 10vw;
+    height: 20vh;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: white;
+    padding: 0.1vw;
+    border: 2px solid rgb(218, 77, 6);
+
+}
+
+.photo h6 {
+    text-transform: uppercase;
+    font-size: 1.1vw;
+    font-weight: bold;
+}
+
+/* **************************(nav4 end)************* */
+
+
+#home {
+    width: 100%;
+    height: 80vh;
+    background-image: url("https://wallpapercave.com/wp/wp2183933.jpg");
+    /* background-color: red; */
+    margin-top: 5vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: max(1100px, 100vw);
+    position: relative;
+}
+
+/* **************************(home end)************* */
+
+
+.home-1 {
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3vh;
+    /* display: none; */
+
+}
+
+.home-1 h1 {
+    font-weight: bold;
+}
+
+.home-1 h3 {
+    font-weight: 500;
+    margin-top: 1.4;
+}
+
+.home-1 button {
+    margin-top: 3vh;
+    background-color: black;
+    color: white;
+    padding: 0.5vw 1vw;
+    margin-bottom: 5px;
+}
+
+/* *********************(Home-1 end)*********** */
+
+#heading h1 {
+    text-align: center;
+    margin-top: 3vh;
+    font-size: 2vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 3vh;
+}
+
+/* *********************(heading com)********* */
+
+#box {
+    width: 96%;
+    height: 600px;
+    /* background-color: red; */
+    position: relative;
+    margin-top: 5vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1vw;
+    /* flex-direction: column; */
+    /* border: 1px solid red; */
+}
+
+#boxinside1 {
+    width: 32%;
+    height: 600px;
+    /* background-color: aqua; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid rgb(20, 9, 234); */
+}
+
+.ph {
+    height: 450px;
+    /* background-color: blueviolet; */
+    /* border: 1px solid rgb(255, 0, 0); */
+}
+
+.ph img {
+    width: 100%;
+    height: 450px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: max(300px, 100vw);
+    object-fit: cover;
+}
+
+.ha {
+    height: 150px;
+    /* background-color: rgb(122, 121, 119) */
+    /* border: 1px solid rgb(2, 1, 1); */
+}
+
+.home-2 {
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2vh;
+    /* display: none; */
+
+}
+
+.home-2 h1 {
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+
+.home-2 h3 {
+    font-weight: 500;
+    margin-top: 1.2;
+    color: rgb(28, 24, 24);
+}
+
+.home-2 button {
+    margin-top: 3vh;
+    background-color: black;
+    color: white;
+    padding: 0.5vw 1vw;
+    margin-bottom: 5px;
+}
+
+
+
+
+#boxinside2 {
+    width: 32%;
+    height: 600px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+}
+
+.home-3 {
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2vh;
+    /* display: none; */
+
+}
+
+.home-3 h1 {
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+
+.home-3 h3 {
+    font-weight: 500;
+    margin-top: 1.2;
+    color: rgb(28, 24, 24);
+}
+
+.home-3 button {
+    margin-top: 3vh;
+    background-color: black;
+    color: white;
+    padding: 0.5vw 1vw;
+    margin-bottom: 5px;
+}
+
+
+#boxinside3 {
+    width: 32%;
+    height: 600px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+}
+
+.home-4 {
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2vh;
+    /* display: none; */
+
+}
+
+.home-4 h1 {
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+
+.home-4 h3 {
+    font-weight: 500;
+    margin-top: 1.2;
+    color: rgb(28, 24, 24);
+}
+
+.home-4 button {
+    margin-top: 3vh;
+    background-color: black;
+    color: white;
+    padding: 0.5vw 1vw;
+    margin-bottom: 5px;
+}
+
+/* ****************************(box end)************ */
+
+#home2 {
+    width: 100%;
+    height: 70vh;
+    background-image: url("https://i.pinimg.com/originals/fe/28/13/fe2813261e9e0588b89570bcd9c4548f.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: max(1120px, 100vw);
+    position: relative;
+    margin-top: 4vh;
+
+}
+
+#home2 .home-5 {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    text-align: center;
+    align-items: center;
+    margin-top: 26vh;
+}
+
+#home2 .home-5 h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 2.4vw;
+    margin-top: 0.5vh;
+}
+
+#home2 .home-5 h3 {
+    color: rgb(246, 234, 234);
+    font-weight: bold;
+    font-size: 1.4vw;
+    /* padding-left: 3vw; */
+    margin-top: 0.5vh;
+
+}
+
+#home2 .home-5 button {
+    margin: 5.2vw;
+    margin-top: 3vh;
+}
+
+#home2 .home-5 button h2 {
+    padding: 0.6vw 1.4vw;
+}
+
+/* ****************************(home2 end)************ */
+
+#home3 {
+    width: 100%;
+    height: 70vh;
+    background-image: url("https://wallpaperaccess.com/full/1448067.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: max(1120px, 100vw);
+    position: relative;
+    margin-top: 3vh;
+
+}
+
+#home3 .home-5 {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    text-align: center;
+    align-items: center;
+    margin-top: 26vh;
+
+}
+
+
+#home3 .home-5 h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 2.4vw;
+    margin-top: 0.5vh;
+}
+
+#home3 .home-5 h3 {
+    color: rgb(246, 234, 234);
+    font-weight: bold;
+    font-size: 1.4vw;
+    /* padding-left: 4.9vw; */
+    margin-top: 0.5vh;
+
+}
+
+#home3 .home-5 button {
+    margin: 5.2vw;
+    margin-top: 3vh;
+}
+
+#home3 .home-5 button h2 {
+    padding: 0.6vw 1.4vw;
+}
+
+/* ****************************(home2 end)************ */
+
+#mini-box {
+    width: 96%;
+    height: auto;
+    /* background-color: red; */
+    /* margin-bottom: 6vh; */
+    margin: 6vh auto;
+    position: relative;
+}
+
+#mini-box h2 {
+    padding: 0.3vw;
+    font-weight: bold;
+
+}
+
+
+/* ****************************(mini-box end)************ */
+
+#section {
+    width: 96%;
+    margin: auto;
+    height: 330px;
+    margin-top: 8vh;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    /* border: 1px solid rebeccapurple; */
+}
+
+#container::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+#container {
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid red; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-top: 3vh; */
+    white-space: nowrap;
+    overflow-x: auto;
+    gap: 1vw;
+}
+
+#container #suku1 {
+    width: 32%;
+    height: 250px;
+    /* border: 1px solid rgb(0, 63, 188); */
+
+}
+
+#container #suku1 h1 {
+    margin-top: 4vh;
+    font-size: 1.5vw;
+    font-weight: 300;
+
+}
+
+#container #suku1 h5 {
+    font-size: 1.1vw;
+    margin-top: 4vh;
+}
+
+
+#container #suku1 img {
+    width: 30vw;
+    display: block;
+    margin: 10px auto;
+
+    height: 250px;
+    object-fit: cover;
+}
+
+
+#container #suku2 {
+    width: 32%;
+    height: 250px;
+    /* border: 1px solid rgb(0, 63, 188); */
+}
+
+#container #suku2 h1 {
+    margin-top: 4vh;
+    font-size: 1.5vw;
+    font-weight: 300;
+
+}
+
+#container #suku2 h5 {
+    font-size: 1.1vw;
+    margin-top: 4vh;
+}
+
+
+#container #suku2 img {
+    width: 30vw;
+    display: block;
+    margin: 10px auto;
+    height: 250px;
+    object-fit: cover;
+}
+
+#container #suku3 {
+    width: 32%;
+    height: 250px;
+    /* border: 1px solid rgb(0, 63, 188); */
+}
+
+#container #suku3 h1 {
+    margin-top: 4vh;
+    font-size: 1.5vw;
+    font-weight: 300;
+
+}
+
+#container #suku3 h5 {
+    font-size: 1.1vw;
+    margin-top: 4vh;
+}
+
+#container #suku3 img {
+    width: 30vw;
+    display: block;
+    margin: 10px auto;
+    height: 250px;
+    object-fit: cover;
+}
+
+
+#container #suku4 {
+    width: 32%;
+    height: 250px;
+    /* border: 1px solid rgb(0, 63, 188); */
+}
+
+#container #suku4 h1 {
+    margin-top: 4vh;
+    font-size: 1.5vw;
+    font-weight: 300;
+
+}
+
+#container #suku4 h5 {
+    font-size: 1.1vw;
+    margin-top: 4vh;
+}
+
+#container #suku4 img {
+    width: 30vw;
+    display: block;
+    margin: 10px auto;
+    height: 250px;
+    object-fit: cover;
+}
+
+#container #suku5 {
+    width: 32%;
+    height: 250px;
+    /* border: 1px solid rgb(0, 63, 188); */
+}
+
+#container #suku5 h1 {
+    margin-top: 4vh;
+    font-size: 1.5vw;
+    font-weight: 300;
+
+}
+
+#container #suku5 h5 {
+    font-size: 1.1vw;
+    margin-top: 4vh;
+}
+
+#container #suku5 img {
+    width: 30vw;
+    display: block;
+    margin: 10px auto;
+    height: 250px;
+    object-fit: cover;
+}
+
+#container #suku6 {
+    width: 32%;
+    height: 250px;
+    /* border: 1px solid rgb(0, 63, 188); */
+}
+
+#container #suku6 h1 {
+    margin-top: 4vh;
+    font-size: 1.5vw;
+    font-weight: 300;
+
+}
+
+#container #suku6 h5 {
+    font-size: 1.1vw;
+    margin-top: 4vh;
+}
+
+#container #suku6 img {
+    width: 30vw;
+    display: block;
+    margin: 10px auto;
+    height: 250px;
+    object-fit: cover;
+}
+
+#container #suku7 {
+    width: 32%;
+    height: 250px;
+    /* border: 1px solid rgb(0, 63, 188); */
+}
+
+#container #suku7 h1 {
+    margin-top: 4vh;
+    font-size: 1.5vw;
+    font-weight: 300;
+
+}
+
+#container #suku7 h5 {
+    font-size: 1.1vw;
+    margin-top: 4vh;
+}
+
+#container #suku7 img {
+    width: 30vw;
+    display: block;
+    margin: 10px auto;
+    height: 250px;
+    object-fit: cover;
+}
+
+/* ****************(section end)********** */
+
+#home4 {
+    width: 100%;
+    height: 70vh;
+    background-image: url("https://wallpaperaccess.com/full/1448067.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: max(1120px, 100vw);
+    position: relative;
+    margin-top: 3vh;
+
+}
+
+#home4 .home-6 {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    text-align: center;
+    align-items: center;
+    margin-top: 26vh;
+
+}
+
+
+#home4 .home-6 h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 2.4vw;
+    margin-top: 0.5vh;
+}
+
+#home4 .home-6 h3 {
+    color: rgb(246, 234, 234);
+    font-weight: bold;
+    font-size: 1.4vw;
+    /* padding-left: 4.9vw; */
+    margin-top: 0.5vh;
+
+}
+
+#home4 .home-6 button {
+    margin: 5.2vw;
+    margin-top: 3vh;
+}
+
+#home4 .home-6 button h2 {
+    padding: 0.6vw 1.4vw;
+}
+
+/* **************************(home-4)*************** */
+
+#footer {
+    width: 100%;
+    height: 30vh;
+
+    background-color: black;
+    color: rgb(243, 235, 235);
+    display: flex;
+    align-items: top;
+    justify-content: space-evenly;
+    padding-top: 4vh;
+}
+
+#footer-div1 h3 {
+    text-transform: uppercase;
+    margin-top: 2vh;
+    font-size: 1vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#footer-div2 h1 {
+    text-transform: uppercase;
+    font-size: 0.9vw;
+    font-weight: bold;
+
+}
+
+#footer-div2 h3 {
+    /* text-transform: uppercase; */
+    font-size: 0.8vw;
+    font-weight: bold;
+    margin-top: 2.4vh;
+    color: rgb(123, 125, 127);
+    font-weight: bold;
+
+}
+
+#footer-div3 h1 {
+    text-transform: uppercase;
+    font-size: 0.9vw;
+    font-weight: bold;
+
+}
+
+#footer-div3 h4 {
+    /* text-transform: uppercase; */
+    font-size: 0.8vw;
+    font-weight: bold;
+    margin-top: 2.4vh;
+    color: rgb(123, 125, 127);
+    font-weight: bold;
+
+}
+
+#footer-div4 {
+    display: flex;
+    gap: 1vw;
+    justify-content: right;
+
+}
+
+#footer-div4 i {
+    font-size: 2vw;
+    /* background-color: gray; */
+    border-radius: 3vw;
+}
+
+/* ***************(Footer-part1)****************** */
+#footer-part2 {
+    width: 100%;
+    height: 10vh;
+    position: relative;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#footer-part2 #one {
+    display: flex;
+    gap: 2vw;
+    margin: 0 8vw;
+
+}
+
+#footer-part2 #one h5 {
+    color: rgb(123, 125, 127);
+    font-size: 1vw;
+}
+
+#footer-part2 #two {
+    display: flex;
+    margin-bottom: 2px;
+    gap: 1vw;
+    margin-right: 2vw;
+
+}
+
+#footer-part2 #two h3 {
+    color: rgb(123, 125, 127);
+    font-size: 1vw;
+}
+
+/* *************(Footer-part2)******************* */
+
+
+#footer-part3 {
+    width: 100%;
+    height: auto;
+}
+
+#footer-part3 h1 {
+    text-align: center;
+}
+
+/* *********************(footer-part3 end)************* */
+
+
+
+
+
+
+
+
+
+
+/* media query */
+
+@media screen and (max-width: 1238px) {
+
+
+
+    #nav1 h1 {
+
+        font-size: 2vw;
+    }
+
+    /* ****************************(nav1 end)*********/
+
+
+    #nav2-part1 h1 {
+        font-size: 1.6vw;
+    }
+
+
+    #icon>i {
+        font-size: 1.3vw;
+    }
+
+    /* **************************(nav2 end)************* */
+
+
+    #nav4 #container {
+        width: 100%;
+        height: 80vh;
+
+    }
+
+
+    .photo img {
+        width: 13vw;
+        height: 21vh;
+    }
+
+    .photo h6 {
+        font-size: 1.3vw;
+    }
+
+    /* **************************(nav4 end)************* */
+
+
+
+    #heading h1 {
+        font-size: 3vw;
+    }
+
+    /* *********************(heading com)********* */
+
+
+
+
+    #box {
+        width: 96%;
+        height: 600px;
+        /* background-color: red; */
+        position: relative;
+        margin-top: 5vh;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1vw;
+        /* flex-direction: column; */
+        /* border: 1px solid red; */
+    }
+
+    #boxinside1 {
+        width: 35%;
+    }
+
+    #boxinside2 {
+        width: 35%;
+
+    }
+
+    #boxinside3 {
+        width: 35%;
+
+    }
+
+
+
+    /* ****************************(box end)************ */
+
+
+    #container #suku1 h1 {
+        font-size: 1.8vw;
+    }
+
+    #container #suku1 h5 {
+        font-size: 1.4vw;
+    }
+
+    #container #suku2 h1 {
+        font-size: 1.8vw;
+    }
+
+    #container #suku2 h5 {
+        font-size: 1.4vw;
+    }
+
+
+    #container #suku3 h1 {
+        font-size: 1.8vw;
+    }
+
+    #container #suku3 h5 {
+        font-size: 1.4vw;
+    }
+
+
+    #container #suku4 h1 {
+        font-size: 1.8vw;
+    }
+
+    #container #suku4 h5 {
+        font-size: 1.4vw;
+    }
+
+    #container #suku5 h1 {
+        font-size: 1.8vw;
+    }
+
+    #container #suku5 h5 {
+        font-size: 1.4vw;
+    }
+
+    #container #suku6 h1 {
+        font-size: 1.8vw;
+    }
+
+    #container #suku6 h5 {
+        font-size: 1.4vw;
+    }
+
+    #container #suku7 h1 {
+        font-size: 1.8vw;
+    }
+
+    #container #suku7 h5 {
+        font-size: 1.4vw;
+    }
+
+    /* **********(container end)*****************/
+
+    #footer {
+        width: 100%;
+        height: 45vh;
+    }
+
+    #footer-div2 h1 {
+
+        font-size: 1.5vw;
+    }
+
+    #footer-div2 h3 {
+        /* text-transform: uppercase; */
+        font-size: 1.4vw;
+        margin-top: 2vh;
+
+
+    }
+
+    #footer-div3 h1 {
+
+        font-size: 1.5vw;
+
+    }
+
+    #footer-div3 h4 {
+        /* text-transform: uppercase; */
+        font-size: 2vw;
+        margin-top: 2vh;
+
+    }
+
+    #footer-div4 {
+        display: flex;
+        gap: 1vw;
+        justify-content: right;
+
+    }
+
+    #footer-div4 i {
+        font-size: 2vw;
+        /* background-color: gray; */
+        border-radius: 3vw;
+    }
+
+    /* ***************(Footer-part1)****************** */
+
+
+
+    #footer-part2 #one h5 {
+
+        font-size: 2vw;
+    }
+
+
+
+    #footer-part2 #two h3 {
+
+        font-size: 2vw;
+    }
+
+    /* *************(Footer-part2)******************* */
+
+
+    #footer-part3 {
+        width: 100%;
+        height: auto;
+    }
+
+    #footer-part3 h1 {
+        text-align: center;
+    }
+
+}
+
+/* ******************** */
+
+
+
+@media screen and (min-width:768px) and (max-width: 950px) {
+
+
+
+    #nav1 h1 {
+
+        font-size: 2vw;
+    }
+
+    /* ****************************(nav1 end)*********/
+
+    #nav2 #nav2-part1 h1 {
+
+        display: none;
+    }
+
+
+    #icon>i {
+        font-size: 3em
+    }
+
+    #in {
+        display: none;
+    }
+
+
+    /* **************************(nav2 end)************* */
+
+
+    .photo img {
+        width: 15vw;
+        height: 19vh;
+    }
+
+    .photo h6 {
+
+        font-size: 2vw;
+    }
+
+    /* **************************(nav4 end)************* */
+
+
+    #home {
+
+        height: 60vh;
+    }
+
+    /* **************************(home end)************* */
+
+
+
+    /* *********************(heading com)********* */
+
+
+    #boxinside1 {
+        width: 50%;
+    }
+
+    #boxinside2 {
+        width: 50%;
+    }
+
+
+    #boxinside3 {
+        width: 50%;
+    }
+
+    /* ****************************(box end)************ */
+
+
+    #home2 {
+
+        height: 60vh;
+        margin-top: 2vh;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    /* ****************************(home2 end)************ */
+
+    #home3 {
+
+        height: 60vh;
+        margin-top: 2vh;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    #home3 .home-5 {
+        padding-left: 3vw;
+
+    }
+
+    /* ****************************(home3 end)************ */
+
+
+    #mini-box {
+
+        margin: 1vh;
+
+    }
+
+    /* ****************************(mini-box end)************ */
+
+
+    #section {
+
+        margin-top: 0.1vh;
+
+    }
+
+
+
+
+    #container #suku1 h1 {
+
+        font-size: 2vw;
+    }
+
+    #container #suku1 h5 {
+        font-size: 2vw;
+    }
+
+
+    #container #suku1 img {
+        width: 30vw;
+        display: block;
+        margin: 10px auto;
+
+        height: 250px;
+        object-fit: cover;
+    }
+
+
+
+
+    #container #suku2 h1 {
+
+        font-size: 2vw;
+    }
+
+    #container #suku2 h5 {
+        font-size: 2vw;
+    }
+
+
+
+    #container #suku3 h1 {
+
+        font-size: 2vw;
+    }
+
+    #container #suku3 h5 {
+        font-size: 2vw;
+    }
+
+
+    #container #suku4 h1 {
+
+        font-size: 2vw;
+    }
+
+    #container #suku4 h5 {
+        font-size: 2vw;
+    }
+
+    #container #suku5 h1 {
+
+        font-size: 2vw;
+    }
+
+    #container #suku5 h5 {
+        font-size: 2vw;
+    }
+
+    #container #suku6 h1 {
+
+        font-size: 2vw;
+    }
+
+    #container #suku6 h5 {
+        font-size: 2vw;
+    }
+
+    #container #suku7 h1 {
+
+        font-size: 2vw;
+    }
+
+    #container #suku7 h5 {
+        font-size: 2vw;
+    }
+
+    /* ****************(section end)********** */
+
+
+    #home4 {
+
+        height: 60vh;
+
+        margin-top: 2vh;
+
+    }
+
+    #home4 .home-6 {
+
+        padding-left: 3vw;
+
+    }
+
+
+
+    /* **************************(home-4 end)*************** */
+
+
+    #footer-div1 h3 {
+
+        font-size: 2vw;
+    }
+
+    #footer-div2 h1 {
+
+        font-size: 3vw;
+    }
+
+    #footer-div2 h3 {
+        font-size: 1.5vw;
+
+        margin-top: 2vh;
+    }
+
+    #footer-div3 h1 {
+
+        font-size: 3vw;
+
+    }
+
+    #footer-div3 h4 {
+        /* text-transform: uppercase; */
+        font-size: 1.5vw;
+
+        margin-top: 2vh;
+
+    }
+
+
+
+    #footer-div4 i {
+        font-size: 4vw;
+    }
+
+    /* ***************(Footer-part1)****************** */
+    #footer-part2 {
+        width: 100%;
+        height: 10vh;
+        position: relative;
+        background-color: black;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #footer-part2 #one {
+        display: flex;
+        gap: 2vw;
+        margin: 0 8vw;
+
+    }
+
+    #footer-part2 #one h5 {
+
+        font-size: 2vw;
+    }
+
+
+
+    #footer-part2 #two h3 {
+
+        font-size: 2vw;
+    }
+
+    /* *************(Footer-part2)******************* */
+
+
+    #footer-part3 {
+        width: 100%;
+        height: auto;
+    }
+
+    #footer-part3 h1 {
+        text-align: center;
+    }
+
+    /* *********************(footer-part3 end)************* */
+
+}
+
+@media screen and (min-width:470px) and (max-width: 767px) {
+
+    #nav1 h1 {
+
+        font-size: 2.7vw;
+    }
+
+    /* ****************************(nav1 end)*********/
+
+
+    #nav2 #nav2-part1 h1 {
+        display: none;
+    }
+
+
+    #icon>i {
+        font-size: 4em;
+
+
+    }
+
+
+
+    #in {
+        display: none;
+    }
+
+
+
+    /* **************************(nav2 end)************* */
+
+
+
+    #nav4 {
+        width: 100%;
+        height: 20vh;
+        /* background-color: chocolate; */
+        position: relative;
+    }
+
+    #nav4 #container {
+        width: 100%;
+        height: 64vh;
+        background-color: white;
+        white-space: nowrap;
+        overflow-x: auto;
+    }
+
+    .photo {
+        position: relative;
+        height: 100%;
+        display: inline-block;
+        animation-name: suku;
+        animation-duration: 17s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+
+    .photo img {
+        width: 25vw;
+        height: 22vh;
+    }
+
+    .photo h6 {
+
+        font-size: 2.1vw;
+
+    }
+
+    @keyframes suku {
+        0% {
+            transform: translate(0);
+        }
+
+        100% {
+            transform: translateX(-100%);
+            transform: translateX (calc(-100%-10px));
+        }
+
+    }
+
+    /* **************************(nav4 end)************* */
+
+
+    #home {
+
+        height: 40vh;
+
+        margin-top: 6vh;
+
+    }
+
+    /* **************************(home end)************* */
+
+
+    #box {
+        width: 100%;
+        height: 400px;
+        display: inline-block;
+        white-space: nowrap;
+        overflow-x: hidden;
+    }
+
+    #boxinside1 {
+        width: 100%;
+        height: 600px;
+
+
+    }
+
+    #boxinside2 {
+        width: 100%;
+        height: 600px;
+    }
+
+
+    #boxinside3 {
+        width: 100%;
+        height: 600px;
+    }
+
+
+    /* ****************************(box end)************ */
+
+
+
+    #home2 {
+        width: 100%;
+        height: 40vh;
+
+        margin-top: 1vh;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+
+    }
+
+    #home2 .home-5 {
+
+        margin-top: 12vh;
+    }
+
+    #home2 .home-5 h1 {
+
+        font-size: 3.4vw;
+
+    }
+
+    #home2 .home-5 h3 {
+
+        font-size: 2.4vw;
+
+
+    }
+
+
+
+    /* ****************************(home2 end)************ */
+
+    #home3 {
+        width: 100%;
+        height: 40vh;
+
+        margin-top: 2vh;
+        padding: 3vw;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    #home3 .home-5 {
+        margin-top: 12vh;
+    }
+
+
+
+
+    #home3 .home-5 h1 {
+
+        font-size: 3.4vw;
+
+    }
+
+    #home3 .home-5 h3 {
+
+        font-size: 2.4vw;
+
+
+    }
+
+
+
+    /* ****************************(home3 end)************ */
+
+
+
+
+    #section {
+        width: 96%;
+        margin: auto;
+        height: 53vh;
+        margin-top: 6vh;
+        background-color: rgb(255, 255, 255);
+        position: relative;
+        /* border: 1px solid rebeccapurple; */
+    }
+
+
+
+    #container {
+        width: 100%;
+        height: 53vh;
+
+    }
+
+    #container #suku1 {
+        width: 100%;
+
+
+    }
+
+    #container #suku1 h1 {
+
+        font-size: 3.5vw;
+
+
+    }
+
+    #container #suku1 h5 {
+        font-size: 3.1vw;
+
+    }
+
+
+    #container #suku1 img {
+        width: 60vw;
+
+    }
+
+
+    #container #suku2 {
+        width: 100%;
+
+
+    }
+
+    #container #suku2 h1 {
+
+        font-size: 3.5vw;
+
+
+    }
+
+    #container #suku2 h5 {
+        font-size: 3.1vw;
+
+    }
+
+
+    #container #suku2 img {
+        width: 60vw;
+
+    }
+
+    #container #suku3 {
+        width: 100%;
+
+
+    }
+
+    #container #suku3 h1 {
+
+        font-size: 3.5vw;
+
+
+    }
+
+    #container #suku3 h5 {
+        font-size: 3.1vw;
+
+    }
+
+
+    #container #suku3 img {
+        width: 60vw;
+
+    }
+
+
+    #container #suku4 {
+        width: 100%;
+
+
+    }
+
+    #container #suku4 h1 {
+
+        font-size: 3.5vw;
+
+
+    }
+
+    #container #suku4 h5 {
+        font-size: 3.1vw;
+
+    }
+
+
+    #container #suku4 img {
+        width: 60vw;
+
+    }
+
+    #container #suku5 {
+        width: 100%;
+
+
+    }
+
+    #container #suku5 h1 {
+
+        font-size: 3.5vw;
+
+
+    }
+
+    #container #suku5 h5 {
+        font-size: 3.1vw;
+
+    }
+
+
+    #container #suku5 img {
+        width: 60vw;
+
+    }
+
+    #container #suku6 {
+        width: 100%;
+
+
+    }
+
+    #container #suku6 h1 {
+
+        font-size: 3.5vw;
+
+
+    }
+
+    #container #suku6 h5 {
+        font-size: 3.1vw;
+
+    }
+
+
+    #container #suku6 img {
+        width: 60vw;
+
+    }
+
+    #container #suku7 {
+        width: 100%;
+
+
+    }
+
+    #container #suku7 h1 {
+
+        font-size: 3.5vw;
+
+
+    }
+
+    #container #suku7 h5 {
+        font-size: 3.1vw;
+
+    }
+
+
+    #container #suku7 img {
+        width: 60vw;
+
+    }
+
+    /* ****************(section end)********** */
+
+
+    #home4 {
+        width: 100%;
+        height: 40vh;
+
+        padding-left: 3vw;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #home4 .home-6 {
+
+        margin-top: 12vh;
+
+    }
+
+
+    #home4 .home-6 h1 {
+
+        font-size: 3.4vw;
+
+    }
+
+    #home4 .home-6 h3 {
+
+        font-size: 2.4vw;
+
+
+    }
+
+
+    /* **************************(home-4)*************** */
+
+    #footer {
+        width: 100%;
+        height: 20vh;
+
+
+        padding-top: 2vh;
+    }
+
+    #footer-div1 h3 {
+
+        font-size: 3vw;
+
+    }
+
+    #footer-div2 h1 {
+
+        font-size: 4vw;
+
+
+    }
+
+    #footer-div2 h3 {
+
+        display: none;
+
+    }
+
+    #footer-div3 h1 {
+
+        font-size: 4vw;
+
+
+    }
+
+    #footer-div3 h4 {
+
+        display: none;
+
+    }
+
+    #footer-div4 {
+        display: flex;
+        gap: 1vw;
+        justify-content: right;
+
+    }
+
+    #footer-div4 i {
+        font-size: 3vw;
+
+    }
+
+    /* ***************(Footer-part1)****************** */
+    #footer-part2 {
+        width: 100%;
+        height: 10vh;
+        position: relative;
+        background-color: black;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #footer-part2 #one {
+        display: flex;
+        gap: 2vw;
+        margin: 0 8vw;
+
+    }
+
+    #footer-part2 #one h5 {
+
+        font-size: 2vw;
+    }
+
+
+
+    #footer-part2 #two h3 {
+
+        font-size: 2vw;
+    }
+
+    /* *************(Footer-part2)******************* */
+
+
+    #footer-part3 {
+        width: 100%;
+        height: auto;
+    }
+
+    #footer-part3 h1 {
+        text-align: center;
+    }
+
+    /* *********************(footer-part3 end)************* */
+}
+
+
+@media screen and (min-width:340px) and (max-width: 469px) {
+
+    #nav1 h1 {
+
+        font-size: 3.7vw;
+    }
+
+    /* ****************************(nav1 end)*********/
+
+
+    #nav2 #nav2-part1 h1 {
+        display: none;
+    }
+
+
+    #icon>i {
+        font-size: 5em;
+        margin: 0.6em;
+
+
+    }
+
+
+
+    #in {
+        display: none;
+    }
+
+
+
+    /* **************************(nav2 end)************* */
+
+
+
+    #nav4 {
+        width: 100%;
+        height: 17vh;
+        /* background-color: chocolate; */
+        position: relative;
+    }
+
+    #nav4 #container {
+        width: 100%;
+        height: 50vh;
+        background-color: white;
+        white-space: nowrap;
+        overflow-x: auto;
+    }
+
+    .photo {
+        position: relative;
+        height: 100%;
+        display: inline-block;
+        animation-name: suku;
+        animation-duration: 17s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+
+    .photo img {
+        width: 34vw;
+        height: 19vh;
+    }
+
+    .photo h6 {
+
+        font-size: 3.1vw;
+
+    }
+
+    @keyframes suku {
+        0% {
+            transform: translate(0);
+        }
+
+        100% {
+            transform: translateX(-100%);
+            transform: translateX (calc(-100%-10px));
+        }
+
+    }
+
+    /* **************************(nav4 end)************* */
+
+
+    #home {
+
+        height: 30vh;
+
+        margin-top: 6vh;
+
+    }
+
+    /* **************************(home end)************* */
+
+
+    #box {
+        width: 100%;
+        height: 400px;
+        display: inline-block;
+        white-space: nowrap;
+        overflow-x: hidden;
+    }
+
+    #boxinside1 {
+        width: 100%;
+        height: 600px;
+    }
+
+    #boxinside2 {
+        width: 100%;
+        height: 600px;
+    }
+
+
+    #boxinside3 {
+        width: 100%;
+        height: 600px;
+    }
+
+    .home-2 h1 {
+        font-weight: bold;
+        font-size: 5.5vw;
+    }
+
+    .home-3 h1 {
+        font-weight: bold;
+        font-size: 5.5vw;
+    }
+
+    .home-4 h1 {
+        font-weight: bold;
+        font-size: 5.5vw;
+    }
+
+
+
+
+    /* ****************************(box end)************ */
+
+
+
+    #home2 {
+        width: 100%;
+        height: 41vh;
+        margin-top: 1vh;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+
+    }
+
+    #home2 .home-5 {
+
+        margin-top: 12vh;
+        position: absolute;
+        bottom: 0;
+        left: 27%;
+
+    }
+
+    #home2 .home-5 h1 {
+
+        font-size: 4.4vw;
+
+    }
+
+    #home2 .home-5 h3 {
+
+        font-size: 3.4vw;
+
+
+    }
+
+
+
+    /* ****************************(home2 end)************ */
+
+
+    #home3 {
+        width: 100%;
+        height: 41vh;
+        margin-top: 1vh;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+
+    }
+
+    #home3 .home-5 {
+
+        margin-top: 12vh;
+        position: absolute;
+        bottom: 0;
+        left: 27%;
+
+    }
+
+    #home3 .home-5 h1 {
+
+        font-size: 4.4vw;
+
+    }
+
+    #home3 .home-5 h3 {
+
+        font-size: 3.4vw;
+
+
+    }
+
+
+
+
+    /* ****************************(home3 end)************ */
+
+
+
+
+    #section {
+        width: 96%;
+        margin: auto;
+        height: 53vh;
+        margin-top: 6vh;
+        background-color: rgb(255, 255, 255);
+        position: relative;
+        /* border: 1px solid rebeccapurple; */
+    }
+
+
+
+    #container {
+        width: 100%;
+        height: 53vh;
+
+    }
+
+    #container #suku1 {
+        width: 100%;
+
+
+    }
+
+    #container #suku1 h1 {
+
+        font-size: 3.5vw;
+
+
+    }
+
+    #container #suku1 h5 {
+        font-size: 3.1vw;
+
+    }
+
+
+    #container #suku1 img {
+        width: 60vw;
+
+    }
+
+
+    #container #suku2 {
+        width: 100%;
+
+
+    }
+
+    #container #suku2 h1 {
+
+        font-size: 3.5vw;
+
+
+    }
+
+    #container #suku2 h5 {
+        font-size: 3.1vw;
+
+    }
+
+
+    #container #suku2 img {
+        width: 60vw;
+
+    }
+
+    #container #suku3 {
+        width: 100%;
+
+
+    }
+
+    #container #suku3 h1 {
+
+        font-size: 3.5vw;
+
+
+    }
+
+    #container #suku3 h5 {
+        font-size: 3.1vw;
+
+    }
+
+
+    #container #suku3 img {
+        width: 60vw;
+
+    }
+
+
+    #container #suku4 {
+        width: 100%;
+
+
+    }
+
+    #container #suku4 h1 {
+
+        font-size: 3.5vw;
+
+
+    }
+
+    #container #suku4 h5 {
+        font-size: 3.1vw;
+
+    }
+
+
+    #container #suku4 img {
+        width: 60vw;
+
+    }
+
+    #container #suku5 {
+        width: 100%;
+
+
+    }
+
+    #container #suku5 h1 {
+
+        font-size: 3.5vw;
+
+
+    }
+
+    #container #suku5 h5 {
+        font-size: 3.1vw;
+
+    }
+
+
+    #container #suku5 img {
+        width: 60vw;
+
+    }
+
+    #container #suku6 {
+        width: 100%;
+
+
+    }
+
+    #container #suku6 h1 {
+
+        font-size: 3.5vw;
+
+
+    }
+
+    #container #suku6 h5 {
+        font-size: 3.1vw;
+
+    }
+
+
+    #container #suku6 img {
+        width: 60vw;
+
+    }
+
+    #container #suku7 {
+        width: 100%;
+
+
+    }
+
+    #container #suku7 h1 {
+
+        font-size: 3.5vw;
+
+
+    }
+
+    #container #suku7 h5 {
+        font-size: 3.1vw;
+
+    }
+
+
+    #container #suku7 img {
+        width: 60vw;
+
+    }
+
+    /* ****************(section end)********** */
+
+
+    #home4 {
+        width: 100%;
+        height: 41vh;
+        margin-top: 1vh;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+
+    }
+
+    #home4 .home-6 {
+
+        margin-top: 12vh;
+        position: absolute;
+        bottom: 0;
+        left: 11%;
+
+    }
+
+    #home4 .home-6 h1 {
+
+        font-size: 5.4vw;
+
+    }
+
+    #home4 .home-6 h3 {
+
+        font-size: 5.4vw;
+
+
+    }
+
+
+
+    /* **************************(home-4)*************** */
+
+    #footer {
+        width: 100%;
+        height: 20vh;
+
+
+        padding-top: 2vh;
+    }
+
+    #footer-div1 h3 {
+
+        font-size: 3vw;
+
+    }
+
+    #footer-div2 h1 {
+
+        font-size: 4vw;
+
+
+    }
+
+    #footer-div2 h3 {
+
+        display: none;
+
+    }
+
+    #footer-div3 h1 {
+
+        font-size: 4vw;
+
+
+    }
+
+    #footer-div3 h4 {
+
+        display: none;
+
+    }
+
+    #footer-div4 {
+        display: flex;
+        gap: 1vw;
+        justify-content: right;
+
+    }
+
+    #footer-div4 i {
+        font-size: 3.8vw;
+
+    }
+
+    /* ***************(Footer-part1)****************** */
+    #footer-part2 {
+        width: 100%;
+        height: 10vh;
+        position: relative;
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #footer-part2 #one {
+        display: flex;
+        gap: 2vw;
+        margin: 0 8vw;
+
+    }
+
+    #footer-part2 #one h5 {
+
+        font-size: 3vw;
+        margin-top: 2px;
+
+    }
+
+
+
+    #footer-part2 #two h3 {
+
+        font-size: 3vw;
+    }
+
+    /* *************(Footer-part2)******************* */
+
+
+    #footer-part3 {
+        width: 100%;
+        height: auto;
+    }
+
+    #footer-part3 h1 {
+        text-align: center;
+    }
+
+    /* *********************(footer-part3 end)************* */
+}
